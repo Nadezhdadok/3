@@ -67,7 +67,7 @@
                     <ComboBox Name="themes" 
                               Width="150"
                               SelectedIndex="0"
-                              Margin="5">
+                              Margin="5" SelectionChanged="themes_SelectionChanged">
                         <TextBlock Text="Светлая"/>
                         <TextBlock Text="Темная"/>
                     </ComboBox>
